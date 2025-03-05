@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #4a4e69;
+  --background: #f2ede4;
   --foreground: #171717;
 }
 
@@ -25,10 +25,40 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.cardTest {
-  background-color: #f2ede4;
-  width: 90vw;
-  height: 70vh;
-  margin: auto;
-  margin-top: 200px;
+h1 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 17px;
+}
+
+.headerTitle {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.headerSubtitle {
+  position: absolute;
+  top: 80px;
+  left: 70px;
+}
+
+.headerImage {
+  margin-top: 30px;
+  width: 100vw;
+  height: 35vh;
+  background-image: url("/StonetopBanner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 2px solid;
+}
+
+.cardContainer {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100 vw;
 }

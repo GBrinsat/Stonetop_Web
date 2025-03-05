@@ -1,10 +1,19 @@
 import Image from "next/image";
 
+//import components
+import Card from "./components/card";
+
 export default function Home() {
   return (
     <div>
-      <h1>test</h1>
-      <div className="cardTest"></div>
+      <div className="headerImage"></div>
+      <h1 className="headerTitle">The Buried Chronicle</h1>
+      <h3 className="headerSubtitle">
+        Tools and tales for the world of stonetop
+      </h3>
+      <div className="cardContainer">
+        <Card></Card>
+      </div>
     </div>
 
     // <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
